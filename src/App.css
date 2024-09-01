@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container{
+  background-color: rgb(222, 210, 210);
+  color: rgb(6, 5, 5);
+  margin: 50px;
+  min-height: 150px;
+  padding: 20px;
+}
+.main{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+#nav{
+  align-items: center;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.header{
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+.header > a{
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: bolder;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+form h2{
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+}
+form > input,textarea{
+  background-color: rgb(216, 197, 197);
+  padding: 10px;
+  margin-top:5px ;
+  margin-bottom: 5px;
+}
+form > button{
+font-size: 1.5rem;
+}
+button{
+  background-color: black;
+  color: white;
+  border: none;
+}
+.tasks{
+  display: flex;
+  flex-direction: row;
+}
+.tasks p{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: -2px ;
+  width: 50%;
+  font-weight: bold;
+}
+.tasks span{
+  font-size: 14px;
+  margin-top: 10px;
+  width: 50%;
+}
+.tasks >div >button{
+  border-radius: 100%;
+  margin-left: 80%;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  background-color: rgb(197, 59, 59);
+}
+.tasks > div{
+  width: 50%;
+}
+.tasks button:hover{
+  background-color: red;
+}
+
+.about{
+  background-color: red;
+  min-height: 400px;
+}
+.contact{
+  background-color: pink;
+  min-height: 400px;
+}
+.footer{
+  background-color: black;
+  min-height: 100px;
+}
+.user{
+  background-color: rgb(197, 9, 231);
+  min-height: 400px;
+}
